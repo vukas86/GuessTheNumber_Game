@@ -5,25 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
     <title>Guess The Number!</title>
   </head>
   <body>
     <header>
-      <button class="btn again">Again!</button>
-      <p>Guess the number between 1 and 20</p>
+      <button class="btn again nes-btn is-warning">Again!</button>
+      <div class="nes-container with-title">
+        <span class="title">About</span>
+        <p>Guess the number between 1-20!</p>
+      </div>
       <h1>Guess My Number!</h1>
       <img src="" alt="logo here" />
     </header>
     <main>
       <section class="left">
         <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
+        <button class="btn check nes-btn is-primary">Check!</button>
       </section>
       <section class="right">
         <p class="message">Start guessing ...</p>
-        <p class="label-score">Score: <span class="score"></span></p>
+        <p class="label-score">
+          <i class="nes-icon coin is-small"></i> Score:
+          <span class="score">20</span>
+        </p>
         <p class="label-highscore">
-          Highscore: <span class="highscore">0</span>
+          <i class="nes-icon trophy is-small"></i> Highscore:
+          <span class="highscore">0</span>
         </p>
       </section>
     </main>
