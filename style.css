@@ -171,9 +171,14 @@ main {
   .guess {
     width: 150px;
     height: 140px;
+    font-size: 50px;
   }
 
   .left {
     width: 25rem;
+  }
+
+  .victory {
+    font-size: 30px;
   }
 }
