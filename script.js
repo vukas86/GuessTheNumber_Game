@@ -41,7 +41,7 @@ document.querySelector('.again').addEventListener('click', function () {
   myNumber = Math.trunc(Math.random() * 20) + 1;
   score = 20;
   document.querySelector('.score').textContent = score;
-  displayMessage('Start guessing ...');
+  displayMessage('Start Guessing!');
   document.querySelector('.guess').value = '';
   document.querySelector('body').style.backgroundColor = '#e80000';
   document.querySelector('.victory').textContent = '';
