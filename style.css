@@ -178,6 +178,10 @@ main {
     width: 25rem;
     margin-top: 70px;
   }
+  .right {
+    font-size: 15px;
+    margin-left: 10px;
+  }
 
   .victory {
     font-size: 30px;
@@ -185,5 +189,9 @@ main {
   .message {
     margin-bottom: 20px;
     height: 30px;
+  }
+  .dots {
+    position: relative;
+    visibility: hidden;
   }
 }
